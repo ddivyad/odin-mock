@@ -11,7 +11,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class OdinOrderBookResponse extends OdinBaseResponse {
+public class OdinOrderBookResponse extends OdinBasesResponse {
 
     @JsonProperty("data")
     private List<OrderData> data = new ArrayList<>(

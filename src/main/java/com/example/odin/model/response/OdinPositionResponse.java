@@ -10,7 +10,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class OdinPositionResponse extends OdinBaseResponse {
+public class OdinPositionResponse extends OdinBasesResponse {
 
     @JsonProperty("data")
     private List<PositionData> data = new ArrayList<>(

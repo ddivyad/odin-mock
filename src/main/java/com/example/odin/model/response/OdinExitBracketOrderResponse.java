@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class OdinExitBracketOrderResponse extends OdinBaseResponse {
+public class OdinExitBracketOrderResponse extends OdinBasesResponse {
     private ExitBracketOrderData data = new ExitBracketOrderData("11110");
 
     @Getter
